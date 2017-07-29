@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/speaker"
+        android:icon="@drawable/ic_volume_up_black_24dp"
+        android:title="Speak"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/speakermute"
+        android:icon="@drawable/ic_volume_mute_black_24dp"
+        android:title="Mute"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/ic_share_black_24dp"
+        android:title="Share"
+        app:showAsAction="always" />
+</menu>

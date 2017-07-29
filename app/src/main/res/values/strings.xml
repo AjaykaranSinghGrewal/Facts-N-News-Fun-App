@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Facts N News</string>
+    <string name="fact1">Dogs</string>
+    <string name="fact2">Technology</string>
+    <string name="fact3">Cats</string>
+    <string name="fact4">Random Facts</string>
+    <string name="fact5">India</string>
+    <string name="fact6">Weird Laws</string>
+    <string name="fact7">Celebrities</string>
+    <string name="fact8">Random Number</string>
+    <string name="joke">Chuck Norris</string>
+    <string name="joke2">Yo Mama</string>
+    <string name="news1">BBC Sports</string>
+    <string name="news2">BBC</string>
+    <string name="news3">Techradar</string>
+    <string name="news4">Buzzfeed</string>
+    <string name="news5">Metro</string>
+    <string name="dog">Dog Images</string>
+
+
+    <string-array name="titles">
+        <item>DOGS</item>
+        <item>TECHNOLOGY</item>
+        <item>CATS</item>
+        <item>RANDOM FACTS</item>
+        <item>INDIA</item>
+        <item>WEIRD LAWS</item>
+        <item>CELEBRITIES</item>
+        <item>RANDOM NUMBER FACT</item>
+        <item>CHUCK NORRIS</item>
+        <item>YO MAMA</item>
+        <item>BBC SPORTS</item>
+        <item>BBC NEWS</item>
+        <item>TECHRADAR</item>
+        <item>BUZZFEED</item>
+        <item>METRO</item>
+        <item>RANDOM DOG PICS</item>
+
+    </string-array>
+
+    <array name="pics">
+        <item>@drawable/dogfront</item>
+        <item>@drawable/techfront</item>
+        <item>@drawable/catalogo</item>
+        <item>@drawable/worldrecordslogo</item>
+        <item>@drawable/indiafront</item>
+        <item>@drawable/lawlogo</item>
+        <item>@drawable/celeb</item>
+        <item>@drawable/number</item>
+        <item>@drawable/chuck</item>
+        <item>@drawable/yomama</item>
+        <item>@drawable/sport</item>
+        <item>@drawable/news</item>
+        <item>@drawable/techrun</item>
+        <item>@drawable/buzz</item>
+        <item>@drawable/india</item>
+        <item>@drawable/puppy</item>
+    </array>
+
+    <string name="title_activity_news_json4">NewsJSON4</string>
+
+</resources>

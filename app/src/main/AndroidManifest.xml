@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="grewal.example.ajayk.factofun">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER"></uses-permission>
+    <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Facts-N-News"
+        android:logo="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="grewal.example.ajayk.factofun.SplashScreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="grewal.example.ajayk.factofun.MainActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="grewal.example.ajayk.factofun.Fact1"
+            android:label="@string/fact1"
+            android:parentActivityName="grewal.example.ajayk.factofun.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="grewal.example.ajayk.factofun.Fact2"
+            android:label="@string/fact2"
+            android:parentActivityName="grewal.example.ajayk.factofun.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="grewal.example.ajayk.factofun.Fact3"
+            android:label="@string/fact3"
+            android:parentActivityName="grewal.example.ajayk.factofun.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:label="@string/joke"
+            android:name="grewal.example.ajayk.factofun.JokeJSON"
+            android:parentActivityName="grewal.example.ajayk.factofun.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="grewal.example.ajayk.factofun.NewsJSON"
+            android:label="@string/news1"
+            android:parentActivityName="grewal.example.ajayk.factofun.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="grewal.example.ajayk.factofun.NewsJSON1"
+            android:label="@string/news2"
+            android:parentActivityName="grewal.example.ajayk.factofun.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="grewal.example.ajayk.factofun.NewsJSON3"
+            android:label="@string/news4"
+            android:parentActivityName="grewal.example.ajayk.factofun.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="grewal.example.ajayk.factofun.NewsJSON2"
+            android:label="@string/news3"
+            android:parentActivityName="grewal.example.ajayk.factofun.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="grewal.example.ajayk.factofun.NewsJSON4"
+            android:label="@string/news5"
+            android:parentActivityName="grewal.example.ajayk.factofun.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="grewal.example.ajayk.factofun.Fact4"
+            android:label="@string/fact4"
+            android:parentActivityName="grewal.example.ajayk.factofun.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="grewal.example.ajayk.factofun.Fact5"
+            android:label="@string/fact5"
+            android:parentActivityName="grewal.example.ajayk.factofun.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="grewal.example.ajayk.factofun.Fact6"
+            android:label="@string/fact6"
+            android:parentActivityName="grewal.example.ajayk.factofun.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="grewal.example.ajayk.factofun.JokeJSON2"
+            android:label="@string/joke2"
+            android:parentActivityName="grewal.example.ajayk.factofun.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="grewal.example.ajayk.factofun.KuttaJSON"
+            android:label="@string/dog"
+            android:parentActivityName="grewal.example.ajayk.factofun.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="grewal.example.ajayk.factofun.Fact7"
+            android:label="@string/fact7"
+            android:parentActivityName="grewal.example.ajayk.factofun.MainActivity"
+            android:screenOrientation="portrait" />
+
+        <activity android:name="grewal.example.ajayk.factofun.NumberJSON"
+            android:label="@string/fact8"
+            android:parentActivityName="grewal.example.ajayk.factofun.MainActivity"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>

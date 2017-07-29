@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ajayk.factofun.grewal.example.ajayk.factofun.JokeJSON"
+    android:background="#3f5b59"
+    android:id="@+id/mRelativeLayout">
+
+
+
+    <ImageView
+        android:id="@+id/imageViewRefresh"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="28dp"
+        android:maxHeight="5dp"
+        android:maxWidth="5dp"
+        app:srcCompat="@drawable/refresh"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/imageViewKutta"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_above="@+id/btnWallpaper"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp" />
+
+    <Button
+        android:id="@+id/btnWallpaper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Set As WallPaper" />
+</RelativeLayout>
